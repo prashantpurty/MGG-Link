@@ -2,7 +2,7 @@
 import React from "react";
 import GuildLogo from "./GuildLogo";
 import SocialButton from "./SocialButton";
-import bgVideo from "./assets/MGG.mp4";
+import bgVideo from "../public/video/MGG.mp4";
 
 const MartianGuildLanding = () => {
   const socialLinks = [
