@@ -55,8 +55,8 @@ const MartianGuildLanding = () => {
   ];
 
   return (
-    <main className="flex flex-col items-center justify-center px-5 py-10 min-h-screen">
-      <video
+    <main className="flex flex-col items-center justify-center px-5 py-10 bg-black min-h-screen">
+      {/*<video
         className="absolute top-0 left-0 w-full h-full object-cover -z-10"
         autoPlay
         muted
@@ -66,7 +66,7 @@ const MartianGuildLanding = () => {
       >
         <source src={bgVideo} type="video/mp4" />
         Your browser does not support the video tag.
-      </video>
+      </video>*/}
       <div className="flex flex-col items-center w-full max-w-xl min-h-[800px] lg:min-h-[1224px] mt-3">
         <header className="flex flex-col items-center w-full text-center">
           <GuildLogo />
